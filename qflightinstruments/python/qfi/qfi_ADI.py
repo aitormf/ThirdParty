@@ -1,13 +1,12 @@
-#!/usr/bin/python3
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
 
-from PyQt5.QtGui import QTransform
-from PyQt5.QtCore import pyqtSignal, QPointF, Qt
-from PyQt5.QtSvg import QGraphicsSvgItem
-from PyQt5.QtWidgets import QGraphicsView, QGraphicsScene, QGraphicsItem, QFrame
+from PyQt4.QtGui import QTransform, QGraphicsView, QGraphicsScene, QGraphicsItem, QFrame
+from PyQt4.QtCore import pyqtSignal, QPointF, Qt
+from PyQt4.QtSvg import QGraphicsSvgItem
 import math
 
-from qfi import qfi_rc
+import .qfi_rc
 
 class qfi_ADI (QGraphicsView):
 
